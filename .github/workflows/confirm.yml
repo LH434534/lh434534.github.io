@@ -1,0 +1,35 @@
+name: confirm
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  c:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: baixa e compara
+        run: |
+          for f in index.html styles.css app.js .well-known/atproto-did; do
+            curl -s -L "https://lh434534.github.io/$f" -o "/tmp/serv_$(basename $f)"
+          done
+          {
+            echo "=== servido vs repositorio ==="
+            for f in index.html styles.css app.js .well-known/atproto-did; do
+              b=$(basename $f)
+              if [ -f "/tmp/serv_$b" ]; then
+                echo "$b: servido=$(wc -c < /tmp/serv_$b)B repo=$(wc -c < $f)B"
+                if diff -q "/tmp/serv_$b" "$f" >/dev/null 2>&1; then echo "  IDENTICO"; else echo "  DIVERGE"; fi
+              fi
+            done
+            echo "=== primeiras linhas do index servido ==="
+            head -6 /tmp/serv_index.html
+            echo "=== well-known servido ==="
+            cat /tmp/serv_.well-known-atproto-did 2>/dev/null || cat "/tmp/serv_.well-known/atproto-did" 2>/dev/null
+          } > confirm.txt 2>&1
+      - name: publica
+        run: |
+          git config user.name c-bot; git config user.email c@b.local
+          git add confirm.txt
+          git diff --cached --quiet || git commit -m "conf"
+          git push

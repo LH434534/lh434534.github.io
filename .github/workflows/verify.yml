@@ -1,0 +1,30 @@
+name: verify-atproto
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: espera o Pages reconstruir
+        run: sleep 90
+      - name: consulta a URL publica
+        run: |
+          {
+            echo "url: https://lh434534.github.io/.well-known/atproto-did"
+            echo "--- status ---"
+            curl -s -o /tmp/b -w "%{http_code}\n" -L https://lh434534.github.io/.well-known/atproto-did
+            echo "--- corpo ---"
+            cat /tmp/b; echo
+            echo "--- headers raiz ---"
+            curl -sI -L https://lh434534.github.io/ | head -12
+          } > verify.txt 2>&1
+      - name: publica resultado
+        run: |
+          git config user.name verify-bot
+          git config user.email verify@bot.local
+          git add verify.txt
+          git diff --cached --quiet || git commit -m "verificacao"
+          git push

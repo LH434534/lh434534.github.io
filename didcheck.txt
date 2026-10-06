@@ -1,0 +1,9 @@
+handle: his08.bsky.social
+did informado: did:plc:dh6eweh7brbtraluugpvpruj
+--- resolveHandle (API publica) ---
+{"did":"did:plc:dh6eweh7brbtraluugpvpruj"}
+--- well-known do handle padrao ---
+status=200
+did:plc:dh6eweh7brbtraluugpvpruj
+--- resolve DID -> repo (describeRepo) ---
+{"error":"MethodNotImplemented","message":"Method Not Implemented"}

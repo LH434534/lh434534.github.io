@@ -1,6 +1,8 @@
-name: verify-atproto
+name: verify-site
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
 permissions:
   contents: write
 jobs:
@@ -8,18 +10,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: espera o Pages reconstruir
-        run: sleep 90
-      - name: consulta a URL publica
+      - name: espera o Pages publicar
+        run: sleep 60
+      - name: verifica cada arquivo
         run: |
           {
-            echo "url: https://lh434534.github.io/.well-known/atproto-did"
-            echo "--- status ---"
-            curl -s -o /tmp/b -w "%{http_code}\n" -L https://lh434534.github.io/.well-known/atproto-did
-            echo "--- corpo ---"
-            cat /tmp/b; echo
-            echo "--- headers raiz ---"
-            curl -sI -L https://lh434534.github.io/ | head -12
+            echo "alvo: https://lh434534.github.io"
+            for f in "" styles.css app.js .well-known/atproto-did README.md; do
+              code=$(curl -s -o /tmp/b -w "%{http_code}" -L "https://lh434534.github.io/$f")
+              echo "  /$f -> $code ($(wc -c < /tmpb 2>/dev/null || wc -c < /tmp/b) bytes)"
+            done
+            echo "--- corpo do well-known ---"
+            curl -s -L https://lh434534.github.io/.well-known/atproto-did
+            echo "--- titulo do index ---"
+            curl -s -L https://lh434534.github.io/ | grep -o '<title>.*</title>' | head -1
           } > verify.txt 2>&1
       - name: publica resultado
         run: |

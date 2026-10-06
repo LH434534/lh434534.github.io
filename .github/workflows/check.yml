@@ -1,0 +1,31 @@
+name: check-did
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: resolve handle e compara
+        run: |
+          {
+            echo "handle: his08.bsky.social"
+            echo "did informado: did:plc:dh6eweh7brbtraluugpvpruj"
+            echo "--- resolveHandle (API publica) ---"
+            curl -s "https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=his08.bsky.social"
+            echo
+            echo "--- well-known do handle padrao ---"
+            curl -s -o /tmp/w -w "status=%{http_code}\n" -L https://his08.bsky.social/.well-known/atproto-did
+            cat /tmp/w; echo
+            echo "--- resolve DID -> repo (describeRepo) ---"
+            curl -s "https://public.api.bsky.app/xrpc/com.atproto.repo.describeRepo?repo=did:plc:dh6eweh7brbtraluugpvpruj" | head -c 400
+            echo
+          } > didcheck.txt 2>&1
+      - name: publica
+        run: |
+          git config user.name verify-bot; git config user.email v@b.local
+          git add didcheck.txt
+          git diff --cached --quiet || git commit -m "did check"
+          git push

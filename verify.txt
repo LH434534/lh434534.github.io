@@ -1,13 +1,13 @@
 alvo: https://lh434534.github.io
-/home/runner/work/_temp/a3d69090-3060-40ad-8936-98d58da674b5.sh: line 5: /tmpb: No such file or directory
+/home/runner/work/_temp/2c422073-8617-472d-8f0a-a9eef0ab743e.sh: line 5: /tmpb: No such file or directory
   / -> 200 (1444 bytes)
-/home/runner/work/_temp/a3d69090-3060-40ad-8936-98d58da674b5.sh: line 5: /tmpb: No such file or directory
+/home/runner/work/_temp/2c422073-8617-472d-8f0a-a9eef0ab743e.sh: line 5: /tmpb: No such file or directory
   /styles.css -> 200 (1437 bytes)
-/home/runner/work/_temp/a3d69090-3060-40ad-8936-98d58da674b5.sh: line 5: /tmpb: No such file or directory
+/home/runner/work/_temp/2c422073-8617-472d-8f0a-a9eef0ab743e.sh: line 5: /tmpb: No such file or directory
   /app.js -> 200 (740 bytes)
-/home/runner/work/_temp/a3d69090-3060-40ad-8936-98d58da674b5.sh: line 5: /tmpb: No such file or directory
+/home/runner/work/_temp/2c422073-8617-472d-8f0a-a9eef0ab743e.sh: line 5: /tmpb: No such file or directory
   /.well-known/atproto-did -> 200 (33 bytes)
-/home/runner/work/_temp/a3d69090-3060-40ad-8936-98d58da674b5.sh: line 5: /tmpb: No such file or directory
+/home/runner/work/_temp/2c422073-8617-472d-8f0a-a9eef0ab743e.sh: line 5: /tmpb: No such file or directory
   /README.md -> 200 (597 bytes)
 --- corpo do well-known ---
 did:plc:dh6eweh7brbtraluugpvpruj

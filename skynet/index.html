@@ -264,10 +264,20 @@ dialog .fechar{
   <h2>Ajustes</h2>
   <p class="sub">Este app fala direto com o endpoint público. Sem chave, sem servidor próprio.</p>
 
+  <label for="prov">Provedor</label>
+  <select id="prov">
+    <option value="pollinations">Pollinations — verificado, CORS liberado</option>
+    <option value="skynetchat">skynetchat.net — instável, Cloudflare</option>
+    <option value="custom">Personalizado</option>
+  </select>
+
   <label for="url">Endpoint</label>
   <input id="url" type="text" spellcheck="false">
 
-  <label for="sid">Cookie sid (opcional)</label>
+  <label for="modelo">Modelo</label>
+  <input id="modelo" type="text" spellcheck="false">
+
+  <label for="sid">Cookie sid (opcional, só skynetchat)</label>
   <input id="sid" type="password" placeholder="mantém histórico no servidor" autocomplete="off">
 
   <label for="lim">Limite por conta</label>
@@ -285,12 +295,31 @@ dialog .fechar{
 
 <script>
 const $ = s => document.querySelector(s);
-const API_PADRAO = 'https://skynetchat.net/api/chat';
-const LIMITE_PADRAO = 5;
+/* Provedores. O padrao e o unico verificado com CORS habilitado.
+   skynetchat.net respondeu 200 numa sonda, mas agora devolve 403 com
+   desafio do Cloudflare a partir de IP de datacenter — e nao envia
+   cabecalho CORS. Um navegador residencial pode passar; um servidor nao. */
+const PROVS = {
+  pollinations: {
+    nome: 'Pollinations (verificado)',
+    url: 'https://text.pollinations.ai/openai/chat/completions',
+    formato: 'openai', cors: true, chave: false,
+  },
+  skynetchat: {
+    nome: 'skynetchat.net (instável)',
+    url: 'https://skynetchat.net/api/chat',
+    formato: 'aiskd', cors: false, chave: false,
+  },
+  custom: { nome: 'Personalizado', url: '', formato: 'openai', cors: false, chave: false },
+};
+const LIMITE_PADRAO = 999;
 
-let apiUrl = localStorage.getItem('sk.url') || API_PADRAO;
-let sid    = localStorage.getItem('sk.sid') || '';
-let limite = Number(localStorage.getItem('sk.lim') || LIMITE_PADRAO);
+let provKey = localStorage.getItem('sk.prov') || 'pollinations';
+if (!PROVS[provKey]) provKey = 'pollinations';
+let apiUrl  = localStorage.getItem('sk.url') || PROVS[provKey].url;
+let modelo  = localStorage.getItem('sk.modelo') || 'openai';
+let sid     = localStorage.getItem('sk.sid') || '';
+let limite  = Number(localStorage.getItem('sk.lim') || LIMITE_PADRAO);
 let usadas = Number(localStorage.getItem('sk.usadas') || 0);
 let conversas = JSON.parse(localStorage.getItem('sk.conv') || '[]');
 let atual = localStorage.getItem('sk.atual');
@@ -301,7 +330,9 @@ let gerando = false, controle = null;
 
 /* ---------------- estado ---------------- */
 function salvar() {
+  localStorage.setItem('sk.prov', provKey);
   localStorage.setItem('sk.url', apiUrl);
+  localStorage.setItem('sk.modelo', modelo);
   localStorage.setItem('sk.sid', sid);
   localStorage.setItem('sk.lim', String(limite));
   localStorage.setItem('sk.usadas', String(usadas));
@@ -314,9 +345,9 @@ function badge() {
   const rest = Math.max(0, limite - usadas);
   b.textContent = usadas + '/' + limite;
   b.className = 'badge ' + (rest === 0 ? 'er' : rest <= 1 ? 'av' : 'ok');
-  $('#nota').textContent = rest === 0
-    ? 'limite desta conta atingido — crie nova conversa para continuar'
-    : `skynetchat.net · sem chave · ${rest} de ${limite} restantes`;
+  const cfg = PROVS[provKey] || PROVS.custom;
+  $('#nota').textContent = (cfg.cors ? cfg.nome : cfg.nome + ' · sem CORS')
+    + (rest === 0 ? ' · limite atingido' : '');
 }
 function hist() {
   const c = conversas.find(x => x.id === atual);
@@ -428,16 +459,19 @@ function bindCopiar() {
 function vazio() {
   const d = document.createElement('div'); d.className = 'vazio';
   d.innerHTML = '<h2>Bem-vindo ao SkynetChat</h2>' +
-    '<p>Conectado ao endpoint público do skynetchat.net. Sem chave de API, ' +
+    '<p>Conversa direto com um provedor público pela rede. Sem chave de API, ' +
     'sem cadastro, sem servidor intermediário.</p>' +
     '<div class="chips">' +
-    ['Explique熔断 de forma simples','Escreva um quicksort em Python',
+    ['Explique fusíveis de forma simples','Escreva um quicksort em Python',
      'Resuma a teoria da relatividade','Crie um cronograma de estudos']
       .map(t=>`<button class="chip">${esc(t)}</button>`).join('') +
     '</div>' +
-    '<div class="nota">Endpoint verificado: <code>POST skynetchat.net/api/chat</code> responde ' +
-    '200 com streaming. A conta gratuita tem limite de mensagens — quando chegar, ' +
-    'o app avisa e você inicia outra conversa. Nada aqui tenta burlar esse limite.</div>';
+    '<div class="nota"><b>Verificado hoje:</b> Pollinations responde 200 com ' +
+    '<code>access-control-allow-origin: *</code> — funciona direto do navegador, ' +
+    'sem servidor. O skynetchat.net respondeu 200 numa sonda anterior, mas passou a ' +
+    'devolver 403 com desafio do Cloudflare a partir de IP de datacenter, e não ' +
+    'envia cabeçalho CORS — por isso não é o padrão. Nada aqui tenta burlar ' +
+    'limite ou proteção de terceiros.</div>';
   $('#lista').appendChild(d);
   d.querySelectorAll('.chip').forEach(c => c.onclick = () => {
     $('#entrada').value = c.textContent; $('#entrada').focus();
@@ -476,12 +510,18 @@ async function enviar() {
   const bu = novaCaixa('user'); bu.caixa.innerHTML = '<p>' + esc(txt) + '</p>';
   const bb = novaCaixa('bot');  bb.caixa.innerHTML = '<span class="cursor"></span>';
 
-  const idConv = atual.replace(/^c/, 'chat-');
-  const corpo = JSON.stringify({
-    id: idConv,
-    trigger: 'submit-message',
-    messages: conv.msgs.map(m => ({ role: m.role, content: m.content })),
-  });
+  const cfg = PROVS[provKey] || PROVS.custom;
+  const corpo = cfg.formato === 'aiskd'
+    ? JSON.stringify({
+        id: atual.replace(/^c/, 'chat-'),
+        trigger: 'submit-message',
+        messages: conv.msgs.map(m => ({ role: m.role, content: m.content })),
+      })
+    : JSON.stringify({
+        model: modelo,
+        stream: true,
+        messages: conv.msgs.map(m => ({ role: m.role, content: m.content })),
+      });
 
   const cab = { 'Content-Type': 'application/json', 'Accept': 'text/event-stream' };
   if (sid) cab['Cookie'] = 'sid=' + sid;
@@ -516,6 +556,16 @@ async function enviar() {
         if (!dado || dado === '[DONE]') continue;
         let o; try { o = JSON.parse(dado); } catch (e) { continue; }
 
+        // formato OpenAI (Pollinations): choices[0].delta.content
+        const ch = o.choices && o.choices[0];
+        const od = ch && (ch.delta || ch.message);
+        if (od && typeof od.content === 'string') {
+          acc += od.content;
+          bb.caixa.innerHTML = md(acc) + '<span class="cursor"></span>';
+          rolar();
+          continue;
+        }
+        // formato AI SDK (skynetchat): type=text-delta
         const t = o.type;
         if (t === 'text-delta' && typeof o.delta === 'string') {
           acc += o.delta;
@@ -582,14 +632,21 @@ function mensagemErro(c) {
 
 /* ---------------- ajustes ---------------- */
 $('#cfg').onclick = () => {
-  $('#url').value = apiUrl; $('#sid').value = sid; $('#lim').value = limite;
+  $('#prov').value = provKey; $('#url').value = apiUrl;
+  $('#modelo').value = modelo; $('#sid').value = sid; $('#lim').value = limite;
   $('#dlg').showModal();
 };
 $('#salvar').onclick = () => {
-  apiUrl = $('#url').value.trim() || API_PADRAO;
+  provKey = $('#prov').value;
+  modelo = $('#modelo').value.trim() || 'openai';
+  apiUrl = $('#url').value.trim() || (PROVS[provKey] ? PROVS[provKey].url : '');
   sid = $('#sid').value.trim();
   limite = Math.max(1, Number($('#lim').value) || LIMITE_PADRAO);
   salvar(); badge(); $('#dlg').close();
+};
+$('#prov').onchange = () => {
+  const p = PROVS[$('#prov').value];
+  if (p && p.url) $('#url').value = p.url;
 };
 $('#testar').onclick = async () => {
   const p = $('#ponto'), t = $('#txtst');
@@ -599,7 +656,7 @@ $('#testar').onclick = async () => {
     const r = await fetch($('#url').value.trim() || API_PADRAO, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Accept': 'text/event-stream' },
-      body: JSON.stringify({ id: 'teste-' + Date.now(), trigger: 'submit-message',
+      body: JSON.stringify({ model: 'openai', stream: false,
         messages: [{ role: 'user', content: 'Responda apenas: ok' }] }),
       signal: AbortSignal.timeout(25000),
     });

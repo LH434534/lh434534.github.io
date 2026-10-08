@@ -1,0 +1,2855 @@
+{
+ "user": {
+  "login": "LH434534",
+  "name": "LH434534",
+  "bio": "",
+  "avatar": "https://avatars.githubusercontent.com/u/259981839?v=4",
+  "url": "https://github.com/LH434534",
+  "created": "2026-02-07T00:55:51Z",
+  "public_repos": 12,
+  "public_gists": 0,
+  "followers": 0,
+  "following": 2,
+  "location": "",
+  "blog": "",
+  "email": ""
+ },
+ "repos": [
+  {
+   "name": "bluesky-agent",
+   "full_name": "LH434534/bluesky-agent",
+   "desc": "Autonomous Bluesky agent — GitHub Actions, GitHub Models, real news",
+   "html_url": "https://github.com/LH434534/bluesky-agent",
+   "homepage": "",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "size_kb": 131,
+   "open_issues": 0,
+   "lang": "Python",
+   "langs": {
+    "Python": 154424
+   },
+   "topics": [],
+   "created": "2026-10-06T22:10:03Z",
+   "updated": "2026-10-08T12:54:02Z",
+   "fork": false,
+   "archived": false,
+   "default_branch": "main",
+   "commits": [
+    {
+     "sha": "2a8fdb8",
+     "msg": "agent: news draft [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-08T12:54:01Z"
+    },
+    {
+     "sha": "43d7b86",
+     "msg": "site: dashboard [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-08T10:29:14Z"
+    },
+    {
+     "sha": "5fa58bd",
+     "msg": "agent: session [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-08T10:28:57Z"
+    },
+    {
+     "sha": "b72d7af",
+     "msg": "site: dashboard [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-08T10:26:36Z"
+    },
+    {
+     "sha": "71afe8f",
+     "msg": "audit: report [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-08T07:23:37Z"
+    },
+    {
+     "sha": "d045cf6",
+     "msg": "ai: probe [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-08T06:36:34Z"
+    },
+    {
+     "sha": "0a7949a",
+     "msg": "agent: news draft [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-08T05:26:56Z"
+    },
+    {
+     "sha": "6260e00",
+     "msg": "site: dashboard [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-08T03:06:30Z"
+    },
+    {
+     "sha": "7f362d2",
+     "msg": "agent: session [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-08T03:06:17Z"
+    },
+    {
+     "sha": "d44c259",
+     "msg": "audit: report [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-08T00:59:44Z"
+    },
+    {
+     "sha": "20db5ea",
+     "msg": "site: dashboard [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-08T00:56:27Z"
+    },
+    {
+     "sha": "9e93da8",
+     "msg": "agent: news draft [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-08T00:04:01Z"
+    },
+    {
+     "sha": "a504ae4",
+     "msg": "site: dashboard [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-07T23:48:47Z"
+    },
+    {
+     "sha": "ce1bbcc",
+     "msg": "agent: session [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-07T23:48:33Z"
+    },
+    {
+     "sha": "a292bb8",
+     "msg": "ai: probe [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-07T23:17:34Z"
+    },
+    {
+     "sha": "ea3e894",
+     "msg": "audit: report [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-07T20:37:02Z"
+    },
+    {
+     "sha": "ccd4cbb",
+     "msg": "site: dashboard [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-07T20:34:45Z"
+    },
+    {
+     "sha": "c7fcae5",
+     "msg": "agent: news draft [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-07T19:47:22Z"
+    },
+    {
+     "sha": "58800be",
+     "msg": "site: dashboard [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-07T19:36:29Z"
+    },
+    {
+     "sha": "e50a797",
+     "msg": "agent: session [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-07T19:36:14Z"
+    },
+    {
+     "sha": "3ba264c",
+     "msg": "audit: report [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-07T14:31:08Z"
+    },
+    {
+     "sha": "afef013",
+     "msg": "ai: probe [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-07T13:51:01Z"
+    },
+    {
+     "sha": "5dec471",
+     "msg": "preflight: diagnostics [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-07T13:43:42Z"
+    },
+    {
+     "sha": "a5e8254",
+     "msg": "audit: report [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-07T13:40:58Z"
+    },
+    {
+     "sha": "0ef1e4a",
+     "msg": "docs: root cause + fix",
+     "author": "LH434534",
+     "date": "2026-10-07T13:40:44Z"
+    },
+    {
+     "sha": "6a0c3d6",
+     "msg": "audit: report [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-07T13:40:25Z"
+    },
+    {
+     "sha": "2533266",
+     "msg": "preflight: diagnostics [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-07T13:40:17Z"
+    },
+    {
+     "sha": "831ac6b",
+     "msg": "chore: src/llm.py",
+     "author": "LH434534",
+     "date": "2026-10-07T13:40:14Z"
+    },
+    {
+     "sha": "d57a297",
+     "msg": "site: dashboard [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-07T13:39:35Z"
+    },
+    {
+     "sha": "a5eade3",
+     "msg": "hunt: round6 [skip ci]",
+     "author": "ratman4080",
+     "date": "2026-10-07T13:39:22Z"
+    }
+   ],
+   "commit_count": 68,
+   "contributors": [
+    {
+     "login": "LH434534",
+     "n": 14,
+     "avatar": "https://avatars.githubusercontent.com/u/259981839?v=4"
+    }
+   ],
+   "readme": ""
+  },
+  {
+   "name": "bsky-agent-24x7",
+   "full_name": "LH434534/bsky-agent-24x7",
+   "desc": "autonomous bluesky agent (24/7)",
+   "html_url": "https://github.com/LH434534/bsky-agent-24x7",
+   "homepage": "",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "size_kb": 177,
+   "open_issues": 0,
+   "lang": "Python",
+   "langs": {
+    "Python": 314988,
+    "Shell": 7804,
+    "JavaScript": 488
+   },
+   "topics": [],
+   "created": "2026-10-04T16:46:29Z",
+   "updated": "2026-10-08T05:36:00Z",
+   "fork": false,
+   "archived": false,
+   "default_branch": "main",
+   "commits": [
+    {
+     "sha": "0eb006d",
+     "msg": "runner: salva estado de imagem no boot",
+     "author": "LH434534",
+     "date": "2026-10-06T05:32:40Z"
+    },
+    {
+     "sha": "3dffb3b",
+     "msg": "flush por tempo, nao por passos",
+     "author": "LH434534",
+     "date": "2026-10-06T05:32:28Z"
+    },
+    {
+     "sha": "3a661be",
+     "msg": "smoke: grava resultado no agent.log",
+     "author": "LH434534",
+     "date": "2026-10-06T05:16:41Z"
+    },
+    {
+     "sha": "3100d55",
+     "msg": "workflow: smoke test de imagem",
+     "author": "LH434534",
+     "date": "2026-10-06T05:09:29Z"
+    },
+    {
+     "sha": "3b23f4a",
+     "msg": "smoke: provedor real no runner",
+     "author": "LH434534",
+     "date": "2026-10-06T05:09:22Z"
+    },
+    {
+     "sha": "5521814",
+     "msg": "teste: pipeline de imagem",
+     "author": "LH434534",
+     "date": "2026-10-06T05:09:15Z"
+    },
+    {
+     "sha": "c22734b",
+     "msg": "deps: Pillow",
+     "author": "LH434534",
+     "date": "2026-10-06T05:09:12Z"
+    },
+    {
+     "sha": "97b9ee4",
+     "msg": "main: handler image",
+     "author": "LH434534",
+     "date": "2026-10-06T05:09:05Z"
+    },
+    {
+     "sha": "693b488",
+     "msg": "runner: motor de imagem",
+     "author": "LH434534",
+     "date": "2026-10-06T05:08:59Z"
+    },
+    {
+     "sha": "e04db21",
+     "msg": "antispam: teto diario de imagens",
+     "author": "LH434534",
+     "date": "2026-10-06T05:08:57Z"
+    },
+    {
+     "sha": "ad3cdb8",
+     "msg": "agency: intencao de postar imagem",
+     "author": "LH434534",
+     "date": "2026-10-06T05:08:50Z"
+    },
+    {
+     "sha": "2a4bbee",
+     "msg": "actions: do_image e posts com imagem",
+     "author": "LH434534",
+     "date": "2026-10-06T05:08:47Z"
+    },
+    {
+     "sha": "4c0f4bd",
+     "msg": "atproto: uploadBlob + embed de imagem no post",
+     "author": "LH434534",
+     "date": "2026-10-06T05:08:40Z"
+    },
+    {
+     "sha": "bb9a52e",
+     "msg": "images: geracao de imagem, provedores, compressao",
+     "author": "LH434534",
+     "date": "2026-10-06T05:08:38Z"
+    },
+    {
+     "sha": "52db4b6",
+     "msg": "teste: motor de crescimento",
+     "author": "LH434534",
+     "date": "2026-10-06T04:40:34Z"
+    },
+    {
+     "sha": "32ca89e",
+     "msg": "main: handlers seek/measure",
+     "author": "LH434534",
+     "date": "2026-10-06T04:40:27Z"
+    },
+    {
+     "sha": "6915c6a",
+     "msg": "runner: motor de crescimento",
+     "author": "LH434534",
+     "date": "2026-10-06T04:40:25Z"
+    },
+    {
+     "sha": "c4064e5",
+     "msg": "brain: dica de crescimento no prompt",
+     "author": "LH434534",
+     "date": "2026-10-06T04:40:13Z"
+    },
+    {
+     "sha": "ad956ef",
+     "msg": "actions: do_seek (onde comentar rende) + do_measure",
+     "author": "LH434534",
+     "date": "2026-10-06T04:40:06Z"
+    },
+    {
+     "sha": "074c647",
+     "msg": "autonomy: growth no motor",
+     "author": "LH434534",
+     "date": "2026-10-06T04:40:00Z"
+    },
+    {
+     "sha": "892b95b",
+     "msg": "agency: intencoes de crescimento",
+     "author": "LH434534",
+     "date": "2026-10-06T04:39:53Z"
+    },
+    {
+     "sha": "d9c039d",
+     "msg": "growth: medicao, atribuicao, relogio, oportunidade",
+     "author": "LH434534",
+     "date": "2026-10-06T04:39:46Z"
+    },
+    {
+     "sha": "62b1fd1",
+     "msg": "fix: AD criado antes do guard",
+     "author": "LH434534",
+     "date": "2026-10-06T04:16:56Z"
+    },
+    {
+     "sha": "459d8f2",
+     "msg": "teste: sistema inteiro autonomo",
+     "author": "LH434534",
+     "date": "2026-10-06T04:11:47Z"
+    },
+    {
+     "sha": "eb53a31",
+     "msg": "runner: stack autonoma completa",
+     "author": "LH434534",
+     "date": "2026-10-06T04:11:35Z"
+    },
+    {
+     "sha": "4c1f7c6",
+     "msg": "antispam: caps e intervalos adaptive",
+     "author": "LH434534",
+     "date": "2026-10-06T04:11:33Z"
+    },
+    {
+     "sha": "64fb0f8",
+     "msg": "autonomy: maestro pode vetar acoes",
+     "author": "LH434534",
+     "date": "2026-10-06T04:11:32Z"
+    },
+    {
+     "sha": "b17d020",
+     "msg": "maestro: governa postura, reequilibra, escolhe silencio",
+     "author": "LH434534",
+     "date": "2026-10-06T04:11:30Z"
+    },
+    {
+     "sha": "2bc6a8c",
+     "msg": "immune: auto-reparo por hipotese, aprende o que funciona",
+     "author": "LH434534",
+     "date": "2026-10-06T04:11:24Z"
+    },
+    {
+     "sha": "98bd610",
+     "msg": "adaptive: parametros que se ajustam com evidencia",
+     "author": "LH434534",
+     "date": "2026-10-06T04:11:12Z"
+    }
+   ],
+   "commit_count": 100,
+   "contributors": [
+    {
+     "login": "LH434534",
+     "n": 93,
+     "avatar": "https://avatars.githubusercontent.com/u/259981839?v=4"
+    },
+    {
+     "login": "bot",
+     "n": 39,
+     "avatar": "https://avatars.githubusercontent.com/u/58210622?v=4"
+    }
+   ],
+   "readme": "# bsky-agent — agente autônomo de Bluesky, à prova de queda\n\nAgente que toca o perfil `@his08.bsky.social` sozinho: posta, responde, segue,\ncurte, reposta — 24h por dia, com filtro anti-spam e um sistema de\nauto-reparo + auto-religamento que não depende de ninguém.\n\n---\n\n## 1. Como ligar\n\n```bash\ncd /data/workspace/bsky_agent\npython3 immortal.py plant      # instala as camadas de persistência\npython3 immortal.py supervise  # sobe tudo (ou: systemctl start bsky-immortal)\npython3 immortal.py status     # ver saúde\n```\n\nNuma máquina nova, do zero:\n\n```bash\nsudo bash install_immortal.sh\n```\n\n---\n\n## 2. Arquitetura\n\n```\nbsky_agent/\n├── main.py               CLI do agente (run / once / status / post / harvest / doctor)\n├── immortal.py           entry point do sistema à prova de queda\n├── core/\n│   ├── atproto.py        cliente AT Protocol: sessão, post, reply, follow, like, repost, facets\n│   ├── brain.py          camada de LLM (Ollama → Groq → OpenRouter → HF → motor offline)\n│   ├── antispam.py       token buckets, caps diários, near-dup, quiet hours, escalonamento\n│   ├── actions.py        comportamentos: post / thread / reply / follow / like / repost\n│   ├── memory.py         SQLite: ações, follows vistos, tópicos, engajamento\n│   ├── scheduler.py      loop com pesos, jitter e sono interrompível\n│   ├── health.py         sondas: disco, memória, sqlite, imports, sessão, load\n│   ├── autofix.py        classifica o próprio log de crash e aplica o conserto\n│   ├── persist.py        planta systemd / cron.d / crontab / rc.local / profile.d / pm2\n│   ├── beacon.py         batimentos: distingue \"morto\" de \"travado\"\n│   └── watchdog.py       supervisor + processo gêmeo (vigiam um ao outro)\n├── data/                 estado: memory.db, corpus.txt, session.json, *.json, logs\n├── deploy/               systemd unit + ecosystem pm2\n├── tests/                mock AT Protocol, e2e, simulação de 24h\n└── install_immortal.sh   instalador completo\n```\n\n---\n\n## 3. Cérebro (`core/brain.py`)\n\nCadeia de provedores — o primeiro que responder ganha:\n\n| Ordem | Provedor | Custo | Nota |\n|---|---|---|---|\n| 1 | **Ollama local** | grátis | `qwen2.5:7b-instruct`. Ilimitado, privado, sem chave. Recomendado. |\n| 2 | Groq | free tier | ~500 tok/s. Precisa `GROQ_API_KEY`. |\n| 3 | OpenRouter | modelos grátis | `OPENROUTER_API_KEY`. |\n| 4 | HuggingFace | serverless | `HF_TOKEN`. |\n| 5 | **Motor offline** | zero | Markov treinado no corpus + templates de intenção + heurísticas de decisão. Sempre disponível. |\n\nO motor offline não é \"quebra-galho\": ele treina em cima do que o agente colhe\ndo feed (e do `data/seed_corpus.txt`), e tem heurísticas próprias para\n`judge_reply` / `judge_follow` — então o agente continua operando sem rede.\n\nPersona em `PERSONA`: pt-BR, ≤280 caracteres, sem emoji spam, sem engagement\nbait, sem frase de IA, nunca diz que é bot.\n\n---\n\n## 4. Filtro anti-spam (`core/antispam.py`)\n\nBluesky bane por **comportamento**, não por palavra. O que é controlado:\n\n**Volume (caps diários, configuráveis no `.env`)**\n\n| Ação | cap/dia | gap mínimo |\n|---|---|---|\n| post | 20 | ~40 min |\n| reply | 35 | ~8 min |\n| follow | 60 | 5 min |\n| like | 150 | 45 s |\n| repost | 25 | 15 min |\n\n**Forma**\n- jitter multiplicativo (0.75–1.45×) em cada gap — nada de intervalo exato\n- burst guard: máx 3 posts em 30 min\n- quiet hours 02:00–07:00, supressão noturna 23:00–06:00\n- no máximo 1 link, 2 hashtags, 3 menções por post\n- antishouting, anti character-spam\n\n**Conteúdo**\n- regex de spam cripto/casino/telegram/f4f/dm me/airdrop\n- detecção de \"AI tell\" (`as an AI`, `delve into`, `in today's`, `game-changer`…)\n- **near-duplicate por simhash** (hamming ≤ 3 nos últimos 400 textos)\n\n**Relacionamento**\n- não repete alvo em 48h (`_touched`)\n- backoff exponencial em 429\n- escada de cooldown: soft 5min → 429 30min → hard 1h → ban-risk 6h\n\n**Verificação de sanidade:** `tests/simulate.py` roda 120 ticks com caps\nreduzidos e **falha se algum cap for estourado**.\n\n---\n\n## 5. Sistema à prova de queda\n\n### 5.1 Anel de três processos (`core/watchdog.py`)\n\n```\n        supervisor ──spawna──> worker (main.py run)\n             │                      ▲\n             │ spawna               │ monitora (heartbeat + poll)\n             ▼                      │\n           twin ──── monitora o supervisor, relança se ele morrer\n```\n\n| Falha | Quem detecta | Ação |\n|---|---|---|\n| worker morre | supervisor | `poll()` → autofix → respawn |\n| worker **trava** (deadlock/socket preso) | supervisor | heartbeat > 180s → kill -9 → respawn |\n| supervisor morre | twin | relança `immortal.py supervise` |\n| twin morre | supervisor | respawn do twin |\n| todos morrem | cron / systemd / rc.local / profile.d | `immortal.py ensure` |\n| reinicia em loop | autofix | escada de reparo (abaixo) |\n\nHeartbeat escreve `pid + ts + tick`, então \"morto\" e \"travado\" são casos\ndiferentes — travamento é o modo de falha que passa despercebido por\nverificações ingênuas de processo.\n\n### 5.2 Persistência (`core/persist.py`) — 6 camadas, replantadas a cada 10 min\n\n| Camada | Arquivo | Sobrevive a |\n|---|---|---|\n| systemd | `/etc/systemd/system/bsky-immortal.service` | reboot, crash |\n| cron.d | `/etc/cron.d/bsky-agent` | reboot + a cada 3 min |\n| crontab root | `/var/spool/cron/crontabs/root` | wipe do cron.d |\n| rc.local | `/etc/rc.local` | systemd ausente |\n| profile.d | `/etc/profile.d/bsky-agent.sh` | qualquer login shell |\n| pm2 | processo `bsky-immortal` | onde pm2 existir |\n\nMesmo que alguém apague **todas**, os processos vivos replantam — e o\n`ensure` é idempotente (não duplica se já está rodando).\n\n### 5.3 Auto-reparo (`core/autofix.py`)\n\nLê o próprio `data/agent.log`, classifica o sintoma e aplica o conserto:\n\n| Sintoma detectado | Conserto |\n|---|---|\n| `ModuleNotFoundError: X` | `pip install X` (com o nome real do módulo) |\n| `database is locked` / malformed | dump → rebuild do schema → restore dos registros |\n| `401` / `ExpiredToken` | apaga `session.json`, força login novo |\n| `429` / `RateLimitExceeded` | grava cooldown de 3h no estado |\n| `JSONDecodeError` / corrupt | limpa `spam_state.json` |\n| `No space left on device` | rotaciona log, poda corpus e backups |\n| `SyntaxError` / `AttributeError` (bug próprio) | escala: limpa pyc → snapshot → restore |\n| `RecursionError` / `MemoryError` | limpa `__pycache__`, reinicia |\n\n**Escada de escalonamento** — se o mesmo sintoma aparecer N vezes:\n1. limpa `__pycache__` + estado + sessão\n2. reinstala dependências + salva snapshot\n3. `git reset --hard` + restaura snapshot conhecido-bom\n\nSnapshot = zip de todo o código (menos `data/`), refeito a cada boot bom.\n`restore_snapshot()` é o último recurso e sempre funciona, porque o zip é\nescrito por um processo que já provou que o código importa.\n\n### 5.4 Sondas de saúde (`core/health.py`)\n\ndisco · memória · integridade sqlite · taxa de erro no log · escrita em disco ·\ntamanho do corpus · validade da sessão · **os próprios módulos importam** ·\nload average · ollama\n\n`python_imports` é a sonda mais importante: se o agente se auto-corrigir e\nescrever código quebrado, ela detecta antes do restart virar loop.\n\n---\n\n## 6. Configuração (`.env`)\n\n```ini\nBSKY_HANDLE=his08.bsky.social\nBSKY_APP_PASSWORD=mtma-vgwq-qi6h-dvch\nTZ_OFFSET=-3              # fuso local → controla quiet hours\n\nDAY_POSTS=20              # caps diários\nDAY_REPLIES=35\nDAY_FOLLOWS=60\nDAY_LIKES=150\nDAY_REPOSTS=25\n\nTICK_MIN=60               # intervalo entre decisões do loop\nTICK_MAX=300\n\nOLLAMA_HOST=http://localhost:11434\nOLLAMA_MODEL=qwen2.5:7b-instruct\n```\n\n---\n\n## 7. Testes\n\n```bash\npython3 tests/e2e.py        # mock AT Protocol: login, facets, brain, screen, behaviours, limites\npython3 tests/simulate.py   # 120 ticks com caps reduzidos → falha se estourar algum cap\npython3 immortal.py status  # saúde + heartbeats + camadas de persistência\npython3 main.py doctor      # credenciais + provedores\n```\n\nO `tests/mock_atproto.py` é um servidor AT Protocol de mentira que gera\ncandidatos novos a cada chamada — então o agente nunca fica sem opção e o\nteste exercita o caminho real (search → judge → screen → write).\n\n---\n\n## 8. Nota sobre este ambiente\n\nO sandbox onde isso foi construído bloqueia saída para `bsky.social`\n(e para HuggingFace, Groq, etc.) — o login real não pôde ser verificado aqui.\n Todo o resto foi: 20 repositórios consultados pela API do GitHub\n(manifest em `github_manifest.json`), e2e passando, simulação de 120 ticks\nsem violar caps, supervisor + twin + worker vivos, e recuperação confirmada\nmatando worker (`respawn em ~21s`) e supervisor (`twin relançou em <60s`).\n\nNa sua máquina, o primeiro `python3 main.py doctor` confirma o login de verdade.\n"
+  },
+  {
+   "name": "lh434534.github.io",
+   "full_name": "LH434534/lh434534.github.io",
+   "desc": "Handle ATProto / Bluesky via GitHub Pages",
+   "html_url": "https://github.com/LH434534/lh434534.github.io",
+   "homepage": "",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "size_kb": 39,
+   "open_issues": 0,
+   "lang": "HTML",
+   "langs": {
+    "HTML": 29602,
+    "CSS": 1437,
+    "JavaScript": 740
+   },
+   "topics": [],
+   "created": "2026-10-06T14:09:36Z",
+   "updated": "2026-10-07T17:17:06Z",
+   "fork": false,
+   "archived": false,
+   "default_branch": "main",
+   "commits": [
+    {
+     "sha": "7f52d47",
+     "msg": "verificacao",
+     "author": "verify-bot",
+     "date": "2026-10-07T17:17:05Z"
+    },
+    {
+     "sha": "0a8737f",
+     "msg": "nojekyll",
+     "author": "LH434534",
+     "date": "2026-10-07T17:15:55Z"
+    },
+    {
+     "sha": "1846933",
+     "msg": "app com provedor verificado",
+     "author": "LH434534",
+     "date": "2026-10-07T17:15:54Z"
+    },
+    {
+     "sha": "fda3d13",
+     "msg": "verificacao",
+     "author": "verify-bot",
+     "date": "2026-10-07T17:08:15Z"
+    },
+    {
+     "sha": "91df833",
+     "msg": "app skynetchat",
+     "author": "LH434534",
+     "date": "2026-10-07T17:07:06Z"
+    },
+    {
+     "sha": "ec6b05b",
+     "msg": "verificacao",
+     "author": "verify-bot",
+     "date": "2026-10-06T20:45:04Z"
+    },
+    {
+     "sha": "b50fa06",
+     "msg": "link para pagina pessoal",
+     "author": "LH434534",
+     "date": "2026-10-06T20:43:54Z"
+    },
+    {
+     "sha": "9ec4e69",
+     "msg": "verificacao",
+     "author": "verify-bot",
+     "date": "2026-10-06T15:09:53Z"
+    },
+    {
+     "sha": "670dd18",
+     "msg": "confirma",
+     "author": "LH434534",
+     "date": "2026-10-06T15:08:41Z"
+    },
+    {
+     "sha": "42e1b3d",
+     "msg": "verificacao",
+     "author": "verify-bot",
+     "date": "2026-10-06T15:06:59Z"
+    },
+    {
+     "sha": "b20a610",
+     "msg": "confirma",
+     "author": "LH434534",
+     "date": "2026-10-06T15:05:51Z"
+    },
+    {
+     "sha": "e60fc15",
+     "msg": "verificacao",
+     "author": "verify-bot",
+     "date": "2026-10-06T15:05:06Z"
+    },
+    {
+     "sha": "08a6d27",
+     "msg": "confirma",
+     "author": "LH434534",
+     "date": "2026-10-06T15:03:56Z"
+    },
+    {
+     "sha": "154a72b",
+     "msg": "verificacao",
+     "author": "verify-bot",
+     "date": "2026-10-06T15:02:02Z"
+    },
+    {
+     "sha": "c5810ed",
+     "msg": "confirma",
+     "author": "LH434534",
+     "date": "2026-10-06T15:00:51Z"
+    },
+    {
+     "sha": "a15abf0",
+     "msg": "verificacao",
+     "author": "verify-bot",
+     "date": "2026-10-06T14:59:08Z"
+    },
+    {
+     "sha": "e4d2440",
+     "msg": "site: .github/workflows/verify.yml",
+     "author": "LH434534",
+     "date": "2026-10-06T14:58:00Z"
+    },
+    {
+     "sha": "ae27a24",
+     "msg": "site: README.md",
+     "author": "LH434534",
+     "date": "2026-10-06T14:57:58Z"
+    },
+    {
+     "sha": "66da67b",
+     "msg": "site: .nojekyll",
+     "author": "LH434534",
+     "date": "2026-10-06T14:57:51Z"
+    },
+    {
+     "sha": "31531d4",
+     "msg": "site: .well-known/atproto-did",
+     "author": "LH434534",
+     "date": "2026-10-06T14:57:49Z"
+    },
+    {
+     "sha": "3f80574",
+     "msg": "site: app.js",
+     "author": "LH434534",
+     "date": "2026-10-06T14:57:47Z"
+    },
+    {
+     "sha": "e1fc0b2",
+     "msg": "site: styles.css",
+     "author": "LH434534",
+     "date": "2026-10-06T14:57:46Z"
+    },
+    {
+     "sha": "5e3627b",
+     "msg": "site: index.html",
+     "author": "LH434534",
+     "date": "2026-10-06T14:57:39Z"
+    },
+    {
+     "sha": "2f0a9d8",
+     "msg": "checa DID",
+     "author": "LH434534",
+     "date": "2026-10-06T14:47:05Z"
+    },
+    {
+     "sha": "d765825",
+     "msg": "checa DID",
+     "author": "LH434534",
+     "date": "2026-10-06T14:45:17Z"
+    },
+    {
+     "sha": "1f89ec4",
+     "msg": "did check",
+     "author": "verify-bot",
+     "date": "2026-10-06T14:42:41Z"
+    },
+    {
+     "sha": "3c68062",
+     "msg": "checa DID",
+     "author": "LH434534",
+     "date": "2026-10-06T14:42:23Z"
+    },
+    {
+     "sha": "38ecf53",
+     "msg": "verifica a URL publica de dentro da rede",
+     "author": "LH434534",
+     "date": "2026-10-06T14:41:30Z"
+    },
+    {
+     "sha": "0b6664f",
+     "msg": "desliga Jekyll: libera .well-known",
+     "author": "LH434534",
+     "date": "2026-10-06T14:41:24Z"
+    },
+    {
+     "sha": "b496e2f",
+     "msg": "verificacao",
+     "author": "verify-bot",
+     "date": "2026-10-06T14:40:29Z"
+    }
+   ],
+   "commit_count": 35,
+   "contributors": [
+    {
+     "login": "LH434534",
+     "n": 25,
+     "avatar": "https://avatars.githubusercontent.com/u/259981839?v=4"
+    }
+   ],
+   "readme": ""
+  },
+  {
+   "name": "api-probe",
+   "full_name": "LH434534/api-probe",
+   "desc": "",
+   "html_url": "https://github.com/LH434534/api-probe",
+   "homepage": "",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "size_kb": 9,
+   "open_issues": 0,
+   "lang": null,
+   "langs": {},
+   "topics": [],
+   "created": "2026-10-06T15:39:19Z",
+   "updated": "2026-10-07T17:13:35Z",
+   "fork": false,
+   "archived": false,
+   "default_branch": "main",
+   "commits": [
+    {
+     "sha": "ff76101",
+     "msg": "t3",
+     "author": "bot",
+     "date": "2026-10-07T17:13:34Z"
+    },
+    {
+     "sha": "d1cc81b",
+     "msg": "c3",
+     "author": "LH434534",
+     "date": "2026-10-07T17:13:17Z"
+    },
+    {
+     "sha": "ada93ab",
+     "msg": "cors result",
+     "author": "bot",
+     "date": "2026-10-07T17:11:31Z"
+    },
+    {
+     "sha": "39b2981",
+     "msg": "cors v2",
+     "author": "LH434534",
+     "date": "2026-10-07T17:11:17Z"
+    },
+    {
+     "sha": "bbcfbc6",
+     "msg": "cors probe",
+     "author": "LH434534",
+     "date": "2026-10-07T17:07:09Z"
+    },
+    {
+     "sha": "36c292d",
+     "msg": "ping 0",
+     "author": "LH434534",
+     "date": "2026-10-07T17:05:13Z"
+    },
+    {
+     "sha": "3eac7c0",
+     "msg": "probe",
+     "author": "LH434534",
+     "date": "2026-10-06T15:51:25Z"
+    },
+    {
+     "sha": "191d51a",
+     "msg": "probe",
+     "author": "LH434534",
+     "date": "2026-10-06T15:48:24Z"
+    },
+    {
+     "sha": "56482a0",
+     "msg": "probe",
+     "author": "LH434534",
+     "date": "2026-10-06T15:46:15Z"
+    },
+    {
+     "sha": "8f4f0a2",
+     "msg": "probe",
+     "author": "LH434534",
+     "date": "2026-10-06T15:43:15Z"
+    },
+    {
+     "sha": "fb845ee",
+     "msg": "probe",
+     "author": "LH434534",
+     "date": "2026-10-06T15:42:27Z"
+    },
+    {
+     "sha": "82ea8bf",
+     "msg": "probe",
+     "author": "LH434534",
+     "date": "2026-10-06T15:39:26Z"
+    },
+    {
+     "sha": "298253e",
+     "msg": "Initial commit",
+     "author": "LH434534",
+     "date": "2026-10-06T15:39:21Z"
+    }
+   ],
+   "commit_count": 13,
+   "contributors": [
+    {
+     "login": "LH434534",
+     "n": 11,
+     "avatar": "https://avatars.githubusercontent.com/u/259981839?v=4"
+    }
+   ],
+   "readme": ""
+  },
+  {
+   "name": "mobile-ai-extreme",
+   "full_name": "LH434534/mobile-ai-extreme",
+   "desc": "Mobile AI Extreme - plataforma de IA local-first",
+   "html_url": "https://github.com/LH434534/mobile-ai-extreme",
+   "homepage": "",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "size_kb": 247,
+   "open_issues": 0,
+   "lang": "Java",
+   "langs": {
+    "Java": 172697
+   },
+   "topics": [],
+   "created": "2026-10-07T00:28:54Z",
+   "updated": "2026-10-07T00:34:07Z",
+   "fork": false,
+   "archived": false,
+   "default_branch": "main",
+   "commits": [
+    {
+     "sha": "9643dc2",
+     "msg": "apk 2026-10-07T00:34:06Z",
+     "author": "build-bot",
+     "date": "2026-10-07T00:34:06Z"
+    },
+    {
+     "sha": "8d9a6ca",
+     "msg": "corrige uso de ok",
+     "author": "LH434534",
+     "date": "2026-10-07T00:33:32Z"
+    },
+    {
+     "sha": "80f40bb",
+     "msg": "apk 2026-10-07T00:32:46Z",
+     "author": "build-bot",
+     "date": "2026-10-07T00:32:46Z"
+    },
+    {
+     "sha": "d0d9d10",
+     "msg": "corrige variavel final",
+     "author": "LH434534",
+     "date": "2026-10-07T00:32:26Z"
+    },
+    {
+     "sha": "f40e354",
+     "msg": "apk 2026-10-07T00:31:49Z",
+     "author": "build-bot",
+     "date": "2026-10-07T00:31:49Z"
+    },
+    {
+     "sha": "619d607",
+     "msg": "falha em build parcial",
+     "author": "LH434534",
+     "date": "2026-10-07T00:31:32Z"
+    },
+    {
+     "sha": "f9a8017",
+     "msg": "post estatico",
+     "author": "LH434534",
+     "date": "2026-10-07T00:31:20Z"
+    },
+    {
+     "sha": "67feecb",
+     "msg": "apk 2026-10-07T00:30:41Z",
+     "author": "build-bot",
+     "date": "2026-10-07T00:30:41Z"
+    },
+    {
+     "sha": "1cc2fb7",
+     "msg": "add .github/workflows/build.yml",
+     "author": "LH434534",
+     "date": "2026-10-07T00:30:16Z"
+    },
+    {
+     "sha": "275523b",
+     "msg": "add res/drawable/ic_launcher_bg.xml",
+     "author": "LH434534",
+     "date": "2026-10-07T00:30:09Z"
+    },
+    {
+     "sha": "4ba6ce2",
+     "msg": "add res/values/themes.xml",
+     "author": "LH434534",
+     "date": "2026-10-07T00:30:03Z"
+    },
+    {
+     "sha": "025c8c8",
+     "msg": "add res/values/colors.xml",
+     "author": "LH434534",
+     "date": "2026-10-07T00:30:01Z"
+    },
+    {
+     "sha": "193e815",
+     "msg": "add res/values/strings.xml",
+     "author": "LH434534",
+     "date": "2026-10-07T00:29:54Z"
+    },
+    {
+     "sha": "5876af5",
+     "msg": "add src/com/thiairo/mobileai/Design.java",
+     "author": "LH434534",
+     "date": "2026-10-07T00:29:52Z"
+    },
+    {
+     "sha": "f71e20d",
+     "msg": "add src/com/thiairo/mobileai/ModelManager.java",
+     "author": "LH434534",
+     "date": "2026-10-07T00:29:45Z"
+    },
+    {
+     "sha": "d7a101e",
+     "msg": "add src/com/thiairo/mobileai/Voice.java",
+     "author": "LH434534",
+     "date": "2026-10-07T00:29:34Z"
+    },
+    {
+     "sha": "33564d9",
+     "msg": "add src/com/thiairo/mobileai/FileIntel.java",
+     "author": "LH434534",
+     "date": "2026-10-07T00:29:32Z"
+    },
+    {
+     "sha": "d768c7c",
+     "msg": "add src/com/thiairo/mobileai/Tools.java",
+     "author": "LH434534",
+     "date": "2026-10-07T00:29:25Z"
+    },
+    {
+     "sha": "81d30ce",
+     "msg": "add src/com/thiairo/mobileai/Store.java",
+     "author": "LH434534",
+     "date": "2026-10-07T00:29:18Z"
+    },
+    {
+     "sha": "e42ca5b",
+     "msg": "add src/com/thiairo/mobileai/AiCore.java",
+     "author": "LH434534",
+     "date": "2026-10-07T00:29:17Z"
+    },
+    {
+     "sha": "0e5df54",
+     "msg": "add src/com/thiairo/mobileai/Screens.java",
+     "author": "LH434534",
+     "date": "2026-10-07T00:29:15Z"
+    },
+    {
+     "sha": "58ac64f",
+     "msg": "add src/com/thiairo/mobileai/MainActivity.java",
+     "author": "LH434534",
+     "date": "2026-10-07T00:29:07Z"
+    },
+    {
+     "sha": "d9fb43d",
+     "msg": "add AndroidManifest.xml",
+     "author": "LH434534",
+     "date": "2026-10-07T00:29:06Z"
+    },
+    {
+     "sha": "f608bf0",
+     "msg": "Initial commit",
+     "author": "LH434534",
+     "date": "2026-10-07T00:28:55Z"
+    }
+   ],
+   "commit_count": 24,
+   "contributors": [
+    {
+     "login": "LH434534",
+     "n": 20,
+     "avatar": "https://avatars.githubusercontent.com/u/259981839?v=4"
+    }
+   ],
+   "readme": "# mobile-ai-extreme\nMobile AI Extreme - plataforma de IA local-first\n"
+  },
+  {
+   "name": "campro",
+   "full_name": "LH434534/campro",
+   "desc": "CamPro - camera manual + fusao computacional",
+   "html_url": "https://github.com/LH434534/campro",
+   "homepage": "",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "size_kb": 83,
+   "open_issues": 0,
+   "lang": "Java",
+   "langs": {
+    "Java": 58698
+   },
+   "topics": [],
+   "created": "2026-10-06T22:41:51Z",
+   "updated": "2026-10-06T22:43:37Z",
+   "fork": false,
+   "archived": false,
+   "default_branch": "main",
+   "commits": [
+    {
+     "sha": "1522a44",
+     "msg": "apk 2026-10-06T22:43:36Z",
+     "author": "build-bot",
+     "date": "2026-10-06T22:43:36Z"
+    },
+    {
+     "sha": "bbe3cad",
+     "msg": "corrige glob da plataforma",
+     "author": "LH434534",
+     "date": "2026-10-06T22:43:12Z"
+    },
+    {
+     "sha": "5038438",
+     "msg": "apk 2026-10-06T22:42:33Z",
+     "author": "build-bot",
+     "date": "2026-10-06T22:42:33Z"
+    },
+    {
+     "sha": "af92c69",
+     "msg": "add .github/workflows/build.yml",
+     "author": "LH434534",
+     "date": "2026-10-06T22:42:13Z"
+    },
+    {
+     "sha": "fcfff5f",
+     "msg": "add res/drawable/ic_launcher_bg.xml",
+     "author": "LH434534",
+     "date": "2026-10-06T22:42:11Z"
+    },
+    {
+     "sha": "59ff92d",
+     "msg": "add res/values/styles.xml",
+     "author": "LH434534",
+     "date": "2026-10-06T22:42:10Z"
+    },
+    {
+     "sha": "fcb0cd0",
+     "msg": "add res/values/colors.xml",
+     "author": "LH434534",
+     "date": "2026-10-06T22:42:08Z"
+    },
+    {
+     "sha": "f1914f9",
+     "msg": "add res/values/strings.xml",
+     "author": "LH434534",
+     "date": "2026-10-06T22:42:06Z"
+    },
+    {
+     "sha": "5febd9c",
+     "msg": "add src/com/thiairo/campro/Fusion.java",
+     "author": "LH434534",
+     "date": "2026-10-06T22:42:04Z"
+    },
+    {
+     "sha": "8144680",
+     "msg": "add src/com/thiairo/campro/Camera2Engine.java",
+     "author": "LH434534",
+     "date": "2026-10-06T22:42:02Z"
+    },
+    {
+     "sha": "24df4d1",
+     "msg": "add src/com/thiairo/campro/MainActivity.java",
+     "author": "LH434534",
+     "date": "2026-10-06T22:42:00Z"
+    },
+    {
+     "sha": "063fe5a",
+     "msg": "add AndroidManifest.xml",
+     "author": "LH434534",
+     "date": "2026-10-06T22:41:58Z"
+    },
+    {
+     "sha": "691a788",
+     "msg": "Initial commit",
+     "author": "LH434534",
+     "date": "2026-10-06T22:41:52Z"
+    }
+   ],
+   "commit_count": 13,
+   "contributors": [
+    {
+     "login": "LH434534",
+     "n": 11,
+     "avatar": "https://avatars.githubusercontent.com/u/259981839?v=4"
+    }
+   ],
+   "readme": "# campro\nCamPro - camera manual + fusao computacional\n"
+  },
+  {
+   "name": "lumen-apk",
+   "full_name": "LH434534/lumen-apk",
+   "desc": "Lumen - cliente de conversa",
+   "html_url": "https://github.com/LH434534/lumen-apk",
+   "homepage": "",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "size_kb": 86,
+   "open_issues": 0,
+   "lang": "Java",
+   "langs": {
+    "Java": 9902
+   },
+   "topics": [],
+   "created": "2026-10-06T21:15:00Z",
+   "updated": "2026-10-06T21:18:31Z",
+   "fork": false,
+   "archived": false,
+   "default_branch": "main",
+   "commits": [
+    {
+     "sha": "98646bd",
+     "msg": "apk 2026-10-06T21:18:30Z",
+     "author": "build-bot",
+     "date": "2026-10-06T21:18:30Z"
+    },
+    {
+     "sha": "69fae50",
+     "msg": "remove duplicacao",
+     "author": "LH434534",
+     "date": "2026-10-06T21:18:12Z"
+    },
+    {
+     "sha": "94d6af2",
+     "msg": "apk em base64",
+     "author": "LH434534",
+     "date": "2026-10-06T21:17:53Z"
+    },
+    {
+     "sha": "597d153",
+     "msg": "apk 2026-10-06T21:16:36Z",
+     "author": "build-bot",
+     "date": "2026-10-06T21:16:36Z"
+    },
+    {
+     "sha": "a7149b4",
+     "msg": "artifact",
+     "author": "LH434534",
+     "date": "2026-10-06T21:16:16Z"
+    },
+    {
+     "sha": "f91b14b",
+     "msg": "apk 2026-10-06T21:15:41Z",
+     "author": "build-bot",
+     "date": "2026-10-06T21:15:41Z"
+    },
+    {
+     "sha": "e91c6c2",
+     "msg": "add .github/workflows/build.yml",
+     "author": "LH434534",
+     "date": "2026-10-06T21:15:18Z"
+    },
+    {
+     "sha": "93905d4",
+     "msg": "add assets/index.html",
+     "author": "LH434534",
+     "date": "2026-10-06T21:15:16Z"
+    },
+    {
+     "sha": "f331496",
+     "msg": "add res/drawable/ic_launcher_bg.xml",
+     "author": "LH434534",
+     "date": "2026-10-06T21:15:14Z"
+    },
+    {
+     "sha": "2db9547",
+     "msg": "add res/values/styles.xml",
+     "author": "LH434534",
+     "date": "2026-10-06T21:15:12Z"
+    },
+    {
+     "sha": "cbefc4e",
+     "msg": "add res/values/strings.xml",
+     "author": "LH434534",
+     "date": "2026-10-06T21:15:11Z"
+    },
+    {
+     "sha": "32cc1af",
+     "msg": "add src/com/thiairo/lumen/MainActivity.java",
+     "author": "LH434534",
+     "date": "2026-10-06T21:15:09Z"
+    },
+    {
+     "sha": "ba30edf",
+     "msg": "add AndroidManifest.xml",
+     "author": "LH434534",
+     "date": "2026-10-06T21:15:07Z"
+    },
+    {
+     "sha": "1d69300",
+     "msg": "Initial commit",
+     "author": "LH434534",
+     "date": "2026-10-06T21:15:01Z"
+    }
+   ],
+   "commit_count": 14,
+   "contributors": [
+    {
+     "login": "LH434534",
+     "n": 11,
+     "avatar": "https://avatars.githubusercontent.com/u/259981839?v=4"
+    }
+   ],
+   "readme": "# lumen-apk\nLumen - cliente de conversa\n"
+  },
+  {
+   "name": "pocket-apk",
+   "full_name": "LH434534/pocket-apk",
+   "desc": "Pocket - APK sem Gradle",
+   "html_url": "https://github.com/LH434534/pocket-apk",
+   "homepage": "",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "size_kb": 61,
+   "open_issues": 0,
+   "lang": "HTML",
+   "langs": {
+    "HTML": 34996,
+    "Java": 7677
+   },
+   "topics": [],
+   "created": "2026-10-06T20:57:55Z",
+   "updated": "2026-10-06T21:03:18Z",
+   "fork": false,
+   "archived": false,
+   "default_branch": "main",
+   "commits": [
+    {
+     "sha": "96a3678",
+     "msg": "apk build 2026-10-06T21:03:17Z",
+     "author": "build-bot",
+     "date": "2026-10-06T21:03:17Z"
+    },
+    {
+     "sha": "de73711",
+     "msg": "corrige paths do d8",
+     "author": "LH434534",
+     "date": "2026-10-06T21:02:52Z"
+    },
+    {
+     "sha": "77cd728",
+     "msg": "apk build 2026-10-06T21:02:18Z",
+     "author": "build-bot",
+     "date": "2026-10-06T21:02:18Z"
+    },
+    {
+     "sha": "c3e2885",
+     "msg": "corrige d8",
+     "author": "LH434534",
+     "date": "2026-10-06T21:01:55Z"
+    },
+    {
+     "sha": "e3e1683",
+     "msg": "sem lambdas",
+     "author": "LH434534",
+     "date": "2026-10-06T21:01:53Z"
+    },
+    {
+     "sha": "ba80f71",
+     "msg": "apk build 2026-10-06T21:01:20Z",
+     "author": "build-bot",
+     "date": "2026-10-06T21:01:20Z"
+    },
+    {
+     "sha": "f38d1ff",
+     "msg": "corrige caminho do log",
+     "author": "LH434534",
+     "date": "2026-10-06T21:00:54Z"
+    },
+    {
+     "sha": "9cde99b",
+     "msg": "ajusta log",
+     "author": "LH434534",
+     "date": "2026-10-06T20:59:16Z"
+    },
+    {
+     "sha": "dfce0c6",
+     "msg": "add .github/workflows/build.yml",
+     "author": "LH434534",
+     "date": "2026-10-06T20:58:15Z"
+    },
+    {
+     "sha": "45dc210",
+     "msg": "add assets/index.html",
+     "author": "LH434534",
+     "date": "2026-10-06T20:58:13Z"
+    },
+    {
+     "sha": "3ee1be8",
+     "msg": "add res/drawable/ic_launcher_bg.xml",
+     "author": "LH434534",
+     "date": "2026-10-06T20:58:10Z"
+    },
+    {
+     "sha": "2475276",
+     "msg": "add res/values/styles.xml",
+     "author": "LH434534",
+     "date": "2026-10-06T20:58:08Z"
+    },
+    {
+     "sha": "a2839ff",
+     "msg": "add res/values/strings.xml",
+     "author": "LH434534",
+     "date": "2026-10-06T20:58:06Z"
+    },
+    {
+     "sha": "837876d",
+     "msg": "add src/com/thiairo/pocket/MainActivity.java",
+     "author": "LH434534",
+     "date": "2026-10-06T20:58:04Z"
+    },
+    {
+     "sha": "db59870",
+     "msg": "add AndroidManifest.xml",
+     "author": "LH434534",
+     "date": "2026-10-06T20:58:02Z"
+    },
+    {
+     "sha": "6afcf82",
+     "msg": "Initial commit",
+     "author": "LH434534",
+     "date": "2026-10-06T20:57:56Z"
+    }
+   ],
+   "commit_count": 16,
+   "contributors": [
+    {
+     "login": "LH434534",
+     "n": 13,
+     "avatar": "https://avatars.githubusercontent.com/u/259981839?v=4"
+    }
+   ],
+   "readme": "# pocket-apk\nPocket - APK sem Gradle\n"
+  },
+  {
+   "name": "sobre",
+   "full_name": "LH434534/sobre",
+   "desc": "Pagina pessoal + arcade",
+   "html_url": "https://github.com/LH434534/sobre",
+   "homepage": "",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "size_kb": 16,
+   "open_issues": 0,
+   "lang": "HTML",
+   "langs": {
+    "HTML": 34996
+   },
+   "topics": [],
+   "created": "2026-10-06T20:42:17Z",
+   "updated": "2026-10-06T20:43:37Z",
+   "fork": false,
+   "archived": false,
+   "default_branch": "main",
+   "commits": [
+    {
+     "sha": "79ef15c",
+     "msg": "check",
+     "author": "c",
+     "date": "2026-10-06T20:43:36Z"
+    },
+    {
+     "sha": "a3c94ff",
+     "msg": "check",
+     "author": "LH434534",
+     "date": "2026-10-06T20:42:28Z"
+    },
+    {
+     "sha": "5782dac",
+     "msg": "dotfiles",
+     "author": "LH434534",
+     "date": "2026-10-06T20:42:26Z"
+    },
+    {
+     "sha": "e92aa39",
+     "msg": "pagina pessoal + 12 jogos",
+     "author": "LH434534",
+     "date": "2026-10-06T20:42:24Z"
+    },
+    {
+     "sha": "a0071af",
+     "msg": "Initial commit",
+     "author": "LH434534",
+     "date": "2026-10-06T20:42:18Z"
+    }
+   ],
+   "commit_count": 5,
+   "contributors": [
+    {
+     "login": "LH434534",
+     "n": 4,
+     "avatar": "https://avatars.githubusercontent.com/u/259981839?v=4"
+    }
+   ],
+   "readme": "# sobre\nPagina pessoal + arcade\n"
+  },
+  {
+   "name": "skynetchat",
+   "full_name": "LH434534/skynetchat",
+   "desc": "SkynetChat - cliente de IA local",
+   "html_url": "https://github.com/LH434534/skynetchat",
+   "homepage": "",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "size_kb": 33,
+   "open_issues": 0,
+   "lang": "HTML",
+   "langs": {
+    "HTML": 53743
+   },
+   "topics": [],
+   "created": "2026-10-06T16:17:09Z",
+   "updated": "2026-10-06T16:24:02Z",
+   "fork": false,
+   "archived": false,
+   "default_branch": "main",
+   "commits": [
+    {
+     "sha": "41c0c14",
+     "msg": "check",
+     "author": "c-bot",
+     "date": "2026-10-06T16:24:01Z"
+    },
+    {
+     "sha": "5005ae8",
+     "msg": "verifica",
+     "author": "LH434534",
+     "date": "2026-10-06T16:22:53Z"
+    },
+    {
+     "sha": "fdc94e0",
+     "msg": "libera dotfiles",
+     "author": "LH434534",
+     "date": "2026-10-06T16:22:42Z"
+    },
+    {
+     "sha": "53278ac",
+     "msg": "SkynetChat",
+     "author": "LH434534",
+     "date": "2026-10-06T16:22:40Z"
+    },
+    {
+     "sha": "40a03db",
+     "msg": "check",
+     "author": "c",
+     "date": "2026-10-06T16:18:46Z"
+    },
+    {
+     "sha": "389b200",
+     "msg": "check",
+     "author": "LH434534",
+     "date": "2026-10-06T16:17:40Z"
+    },
+    {
+     "sha": "f369669",
+     "msg": "dotfiles",
+     "author": "LH434534",
+     "date": "2026-10-06T16:17:33Z"
+    },
+    {
+     "sha": "6588529",
+     "msg": "app",
+     "author": "LH434534",
+     "date": "2026-10-06T16:17:21Z"
+    },
+    {
+     "sha": "ba81cc0",
+     "msg": "Initial commit",
+     "author": "LH434534",
+     "date": "2026-10-06T16:17:10Z"
+    }
+   ],
+   "commit_count": 9,
+   "contributors": [
+    {
+     "login": "LH434534",
+     "n": 7,
+     "avatar": "https://avatars.githubusercontent.com/u/259981839?v=4"
+    }
+   ],
+   "readme": "# skynetchat\nSkynetChat - cliente de IA local\n"
+  },
+  {
+   "name": "omni",
+   "full_name": "LH434534/omni",
+   "desc": "Omni - assistente single-file",
+   "html_url": "https://github.com/LH434534/omni",
+   "homepage": "",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "size_kb": 21,
+   "open_issues": 0,
+   "lang": "HTML",
+   "langs": {
+    "HTML": 52047
+   },
+   "topics": [],
+   "created": "2026-10-06T16:06:27Z",
+   "updated": "2026-10-06T16:08:07Z",
+   "fork": false,
+   "archived": false,
+   "default_branch": "main",
+   "commits": [
+    {
+     "sha": "b8a6700",
+     "msg": "check",
+     "author": "c-bot",
+     "date": "2026-10-06T16:08:06Z"
+    },
+    {
+     "sha": "996b7f1",
+     "msg": "verifica",
+     "author": "LH434534",
+     "date": "2026-10-06T16:06:54Z"
+    },
+    {
+     "sha": "9c885af",
+     "msg": "libera dotfiles",
+     "author": "LH434534",
+     "date": "2026-10-06T16:06:42Z"
+    },
+    {
+     "sha": "636085a",
+     "msg": "app omni",
+     "author": "LH434534",
+     "date": "2026-10-06T16:06:40Z"
+    },
+    {
+     "sha": "c23591d",
+     "msg": "Initial commit",
+     "author": "LH434534",
+     "date": "2026-10-06T16:06:29Z"
+    }
+   ],
+   "commit_count": 5,
+   "contributors": [
+    {
+     "login": "LH434534",
+     "n": 4,
+     "avatar": "https://avatars.githubusercontent.com/u/259981839?v=4"
+    }
+   ],
+   "readme": "# omni\nOmni - assistente single-file\n"
+  },
+  {
+   "name": "bluesky-handle",
+   "full_name": "LH434534/bluesky-handle",
+   "desc": "Handle ATProto / Bluesky via GitHub Pages",
+   "html_url": "https://github.com/LH434534/bluesky-handle",
+   "homepage": "",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "size_kb": 1,
+   "open_issues": 0,
+   "lang": "HTML",
+   "langs": {
+    "HTML": 598
+   },
+   "topics": [],
+   "created": "2026-10-06T14:08:01Z",
+   "updated": "2026-10-06T14:08:21Z",
+   "fork": false,
+   "archived": false,
+   "default_branch": "main",
+   "commits": [
+    {
+     "sha": "64282a3",
+     "msg": "pagina do handle",
+     "author": "LH434534",
+     "date": "2026-10-06T14:08:20Z"
+    },
+    {
+     "sha": "cfc628f",
+     "msg": "publica DID do ATProto",
+     "author": "LH434534",
+     "date": "2026-10-06T14:08:14Z"
+    },
+    {
+     "sha": "c85963c",
+     "msg": "Initial commit",
+     "author": "LH434534",
+     "date": "2026-10-06T14:08:03Z"
+    }
+   ],
+   "commit_count": 3,
+   "contributors": [
+    {
+     "login": "LH434534",
+     "n": 3,
+     "avatar": "https://avatars.githubusercontent.com/u/259981839?v=4"
+    }
+   ],
+   "readme": "# bluesky-handle\nHandle ATProto / Bluesky via GitHub Pages\n"
+  },
+  {
+   "name": "bluesky-his08-bot",
+   "full_name": "LH434534/bluesky-his08-bot",
+   "desc": "Bot autonomo Bluesky @his08.bsky.social via GitHub Actions",
+   "html_url": "https://github.com/LH434534/bluesky-his08-bot",
+   "homepage": "",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "size_kb": 97,
+   "open_issues": 0,
+   "lang": "Python",
+   "langs": {
+    "Python": 112216
+   },
+   "topics": [],
+   "created": "2026-10-03T03:25:20Z",
+   "updated": "2026-10-06T12:46:37Z",
+   "fork": false,
+   "archived": false,
+   "default_branch": "main",
+   "commits": [
+    {
+     "sha": "eb04211",
+     "msg": "self-healing: workflow de vigilância 2h",
+     "author": "LH434534",
+     "date": "2026-10-06T12:46:36Z"
+    },
+    {
+     "sha": "8ac8e92",
+     "msg": "self-healing: vigilância externa + reanimação",
+     "author": "LH434534",
+     "date": "2026-10-06T12:46:34Z"
+    },
+    {
+     "sha": "73f023c",
+     "msg": "auto-manutencao: testes da camada de operações",
+     "author": "LH434534",
+     "date": "2026-10-06T12:46:31Z"
+    },
+    {
+     "sha": "9d18933",
+     "msg": "auto-manutencao: modo extremo 24h + seção tuning (limites declarados)",
+     "author": "LH434534",
+     "date": "2026-10-06T12:46:27Z"
+    },
+    {
+     "sha": "edd5193",
+     "msg": "auto-manutencao: breakers/metrics/gates/tuning persistidos",
+     "author": "LH434534",
+     "date": "2026-10-06T12:46:24Z"
+    },
+    {
+     "sha": "5ca9d59",
+     "msg": "auto-manutencao: client base",
+     "author": "LH434534",
+     "date": "2026-10-06T12:46:21Z"
+    },
+    {
+     "sha": "72145ac",
+     "msg": "auto-manutencao: validacao e retries de IA (base)",
+     "author": "LH434534",
+     "date": "2026-10-06T12:46:16Z"
+    },
+    {
+     "sha": "5492b0e",
+     "msg": "auto-manutencao: observabilidade/self-healing/tuning/incidents",
+     "author": "LH434534",
+     "date": "2026-10-06T12:46:14Z"
+    },
+    {
+     "sha": "a322d6b",
+     "msg": "auto-manutencao: helpers dedupe/corte (base)",
+     "author": "LH434534",
+     "date": "2026-10-06T12:46:11Z"
+    },
+    {
+     "sha": "424e294",
+     "msg": "health history",
+     "author": "github-actions[bot]",
+     "date": "2026-10-04T07:32:01Z"
+    },
+    {
+     "sha": "6026f19",
+     "msg": "state update",
+     "author": "github-actions[bot]",
+     "date": "2026-10-04T06:04:45Z"
+    },
+    {
+     "sha": "8d1008e",
+     "msg": "state update",
+     "author": "github-actions[bot]",
+     "date": "2026-10-04T06:04:42Z"
+    },
+    {
+     "sha": "8a195ea",
+     "msg": "state update",
+     "author": "github-actions[bot]",
+     "date": "2026-10-04T01:58:15Z"
+    },
+    {
+     "sha": "148fefd",
+     "msg": "state update",
+     "author": "github-actions[bot]",
+     "date": "2026-10-04T01:56:17Z"
+    },
+    {
+     "sha": "b6044d4",
+     "msg": "state update",
+     "author": "github-actions[bot]",
+     "date": "2026-10-04T01:50:03Z"
+    },
+    {
+     "sha": "f2428fd",
+     "msg": "state update",
+     "author": "github-actions[bot]",
+     "date": "2026-10-04T01:46:55Z"
+    },
+    {
+     "sha": "a795880",
+     "msg": "self-healing: workflow de vigilância 2h",
+     "author": "LH434534",
+     "date": "2026-10-04T01:44:21Z"
+    },
+    {
+     "sha": "acda21c",
+     "msg": "self-healing: vigilância externa + reanimação",
+     "author": "LH434534",
+     "date": "2026-10-04T01:44:19Z"
+    },
+    {
+     "sha": "b3b021a",
+     "msg": "auto-manutencao: testes da camada de operações",
+     "author": "LH434534",
+     "date": "2026-10-04T01:44:17Z"
+    },
+    {
+     "sha": "04ce4c4",
+     "msg": "auto-manutencao: modo extremo 24h + seção tuning (limites declarados)",
+     "author": "LH434534",
+     "date": "2026-10-04T01:44:15Z"
+    },
+    {
+     "sha": "455ac96",
+     "msg": "auto-manutencao: breakers/metrics/gates/tuning persistidos",
+     "author": "LH434534",
+     "date": "2026-10-04T01:44:13Z"
+    },
+    {
+     "sha": "952bacd",
+     "msg": "auto-manutencao: client base",
+     "author": "LH434534",
+     "date": "2026-10-04T01:44:11Z"
+    },
+    {
+     "sha": "0cb99f1",
+     "msg": "auto-manutencao: validacao e retries de IA (base)",
+     "author": "LH434534",
+     "date": "2026-10-04T01:44:09Z"
+    },
+    {
+     "sha": "1c5c77c",
+     "msg": "auto-manutencao: observabilidade/self-healing/tuning/incidents",
+     "author": "LH434534",
+     "date": "2026-10-04T01:44:07Z"
+    },
+    {
+     "sha": "92acdba",
+     "msg": "auto-manutencao: helpers dedupe/corte (base)",
+     "author": "LH434534",
+     "date": "2026-10-04T01:44:04Z"
+    },
+    {
+     "sha": "54c7c6f",
+     "msg": "state update",
+     "author": "github-actions[bot]",
+     "date": "2026-10-04T01:37:56Z"
+    },
+    {
+     "sha": "40beb2d",
+     "msg": "state update",
+     "author": "github-actions[bot]",
+     "date": "2026-10-04T01:33:59Z"
+    },
+    {
+     "sha": "e8abad2",
+     "msg": "self-healing: workflow de vigilância 2h",
+     "author": "LH434534",
+     "date": "2026-10-04T01:33:06Z"
+    },
+    {
+     "sha": "a8f2e31",
+     "msg": "self-healing: vigilância externa + reanimação",
+     "author": "LH434534",
+     "date": "2026-10-04T01:33:04Z"
+    },
+    {
+     "sha": "eef665a",
+     "msg": "auto-manutencao: testes da camada de operações",
+     "author": "LH434534",
+     "date": "2026-10-04T01:33:02Z"
+    }
+   ],
+   "commit_count": 100,
+   "contributors": [
+    {
+     "login": "LH434534",
+     "n": 83,
+     "avatar": "https://avatars.githubusercontent.com/u/259981839?v=4"
+    },
+    {
+     "login": "github-actions[bot]",
+     "n": 23,
+     "avatar": "https://avatars.githubusercontent.com/in/15368?v=4"
+    }
+   ],
+   "readme": ""
+  },
+  {
+   "name": "bsky-bot",
+   "full_name": "LH434534/bsky-bot",
+   "desc": "bot autonomo de influenciador para Bluesky (AT Protocol)",
+   "html_url": "https://github.com/LH434534/bsky-bot",
+   "homepage": "",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "size_kb": 36,
+   "open_issues": 0,
+   "lang": "Python",
+   "langs": {
+    "Python": 78608
+   },
+   "topics": [],
+   "created": "2026-10-03T04:00:01Z",
+   "updated": "2026-10-03T04:02:31Z",
+   "fork": false,
+   "archived": false,
+   "default_branch": "main",
+   "commits": [
+    {
+     "sha": "5ef9904",
+     "msg": "bsky bot: autonomo com warm-up, orcamento e anti-spam",
+     "author": "LH434534",
+     "date": "2026-10-03T04:02:30Z"
+    }
+   ],
+   "commit_count": 1,
+   "contributors": [
+    {
+     "login": "LH434534",
+     "n": 1,
+     "avatar": "https://avatars.githubusercontent.com/u/259981839?v=4"
+    }
+   ],
+   "readme": ""
+  },
+  {
+   "name": "thiairo-bot-deploy",
+   "full_name": "LH434534/thiairo-bot-deploy",
+   "desc": "thiairo bot — posta no Bluesky via Actions",
+   "html_url": "https://github.com/LH434534/thiairo-bot-deploy",
+   "homepage": "",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "size_kb": 269,
+   "open_issues": 0,
+   "lang": "JavaScript",
+   "langs": {
+    "JavaScript": 112784
+   },
+   "topics": [],
+   "created": "2026-10-01T03:38:40Z",
+   "updated": "2026-10-01T14:32:29Z",
+   "fork": false,
+   "archived": false,
+   "default_branch": "main",
+   "commits": [
+    {
+     "sha": "577a3d8",
+     "msg": "swarm w0",
+     "author": "thiairo-bot",
+     "date": "2026-10-01T14:32:28Z"
+    },
+    {
+     "sha": "258951a",
+     "msg": "swarm w4",
+     "author": "thiairo-bot",
+     "date": "2026-10-01T14:32:13Z"
+    },
+    {
+     "sha": "43906fa",
+     "msg": "swarm w19",
+     "author": "thiairo-bot",
+     "date": "2026-10-01T14:32:01Z"
+    },
+    {
+     "sha": "08d36bc",
+     "msg": "swarm w7",
+     "author": "thiairo-bot",
+     "date": "2026-10-01T14:31:44Z"
+    },
+    {
+     "sha": "d6acaaa",
+     "msg": "workflow swarm",
+     "author": "LH434534",
+     "date": "2026-10-01T14:31:02Z"
+    },
+    {
+     "sha": "623123a",
+     "msg": "social",
+     "author": "LH434534",
+     "date": "2026-10-01T14:31:01Z"
+    },
+    {
+     "sha": "0b11d08",
+     "msg": "imagem",
+     "author": "LH434534",
+     "date": "2026-10-01T14:30:58Z"
+    },
+    {
+     "sha": "bdbd2e1",
+     "msg": "worker paralelo",
+     "author": "LH434534",
+     "date": "2026-10-01T14:30:57Z"
+    },
+    {
+     "sha": "fdeeb0b",
+     "msg": "voz por persona",
+     "author": "LH434534",
+     "date": "2026-10-01T14:30:55Z"
+    },
+    {
+     "sha": "6b44c89",
+     "msg": "pool 567",
+     "author": "LH434534",
+     "date": "2026-10-01T14:30:53Z"
+    },
+    {
+     "sha": "3716106",
+     "msg": "fabricar personas",
+     "author": "LH434534",
+     "date": "2026-10-01T14:30:41Z"
+    },
+    {
+     "sha": "b8db3c0",
+     "msg": "swarm w15",
+     "author": "thiairo-bot",
+     "date": "2026-10-01T14:28:55Z"
+    },
+    {
+     "sha": "37a80f2",
+     "msg": "swarm w5",
+     "author": "thiairo-bot",
+     "date": "2026-10-01T14:28:53Z"
+    },
+    {
+     "sha": "d2a47e9",
+     "msg": "swarm w18",
+     "author": "thiairo-bot",
+     "date": "2026-10-01T14:28:50Z"
+    },
+    {
+     "sha": "a3af3d9",
+     "msg": "swarm w3",
+     "author": "thiairo-bot",
+     "date": "2026-10-01T14:28:30Z"
+    },
+    {
+     "sha": "8cc83cc",
+     "msg": "swarm w16",
+     "author": "thiairo-bot",
+     "date": "2026-10-01T14:28:29Z"
+    },
+    {
+     "sha": "58af0b1",
+     "msg": "swarm w19",
+     "author": "thiairo-bot",
+     "date": "2026-10-01T14:28:27Z"
+    },
+    {
+     "sha": "6fef5c4",
+     "msg": "swarm w1",
+     "author": "thiairo-bot",
+     "date": "2026-10-01T14:28:26Z"
+    },
+    {
+     "sha": "20454e4",
+     "msg": "swarm w14",
+     "author": "thiairo-bot",
+     "date": "2026-10-01T14:28:24Z"
+    },
+    {
+     "sha": "55dfcd0",
+     "msg": "workflow swarm",
+     "author": "LH434534",
+     "date": "2026-10-01T14:27:56Z"
+    },
+    {
+     "sha": "da58820",
+     "msg": "social",
+     "author": "LH434534",
+     "date": "2026-10-01T14:27:54Z"
+    },
+    {
+     "sha": "a15fac0",
+     "msg": "imagem",
+     "author": "LH434534",
+     "date": "2026-10-01T14:27:52Z"
+    },
+    {
+     "sha": "0d9f2a8",
+     "msg": "worker paralelo",
+     "author": "LH434534",
+     "date": "2026-10-01T14:27:50Z"
+    },
+    {
+     "sha": "f2995d7",
+     "msg": "voz por persona",
+     "author": "LH434534",
+     "date": "2026-10-01T14:27:48Z"
+    },
+    {
+     "sha": "a34473a",
+     "msg": "pool 567",
+     "author": "LH434534",
+     "date": "2026-10-01T14:27:46Z"
+    },
+    {
+     "sha": "a320959",
+     "msg": "fabricar personas",
+     "author": "LH434534",
+     "date": "2026-10-01T14:27:44Z"
+    },
+    {
+     "sha": "9b8f00e",
+     "msg": "workflow swarm",
+     "author": "LH434534",
+     "date": "2026-10-01T14:27:39Z"
+    },
+    {
+     "sha": "bbcdab5",
+     "msg": "social",
+     "author": "LH434534",
+     "date": "2026-10-01T14:27:37Z"
+    },
+    {
+     "sha": "1964caf",
+     "msg": "imagem",
+     "author": "LH434534",
+     "date": "2026-10-01T14:27:35Z"
+    },
+    {
+     "sha": "f94186b",
+     "msg": "worker paralelo",
+     "author": "LH434534",
+     "date": "2026-10-01T14:27:34Z"
+    }
+   ],
+   "commit_count": 100,
+   "contributors": [
+    {
+     "login": "LH434534",
+     "n": 309,
+     "avatar": "https://avatars.githubusercontent.com/u/259981839?v=4"
+    }
+   ],
+   "readme": "# thiairo-bot\n\nPosta no Bluesky a cada 3h via GitHub Actions.\n\n- `gh_post.js` — pega da fila e publica\n- `queue.json` — fila de posts\n- `published.json` — historico\n"
+  },
+  {
+   "name": "bsky-agent",
+   "full_name": "LH434534/bsky-agent",
+   "desc": "agente de automação Bluesky / AT Protocol",
+   "html_url": "https://github.com/LH434534/bsky-agent",
+   "homepage": "",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "size_kb": 82,
+   "open_issues": 0,
+   "lang": "Python",
+   "langs": {
+    "Python": 94179,
+    "HTML": 7099,
+    "Shell": 2029,
+    "Dockerfile": 796
+   },
+   "topics": [],
+   "created": "2026-10-01T03:40:25Z",
+   "updated": "2026-10-01T14:02:35Z",
+   "fork": false,
+   "archived": false,
+   "default_branch": "main",
+   "commits": [
+    {
+     "sha": "a84c12b",
+     "msg": "ai local one-shot",
+     "author": "LH434534",
+     "date": "2026-10-01T14:02:35Z"
+    },
+    {
+     "sha": "a18921f",
+     "msg": "remove automação",
+     "author": "LH434534",
+     "date": "2026-10-01T13:53:25Z"
+    },
+    {
+     "sha": "72c8c50",
+     "msg": "recria workflow de IA local",
+     "author": "LH434534",
+     "date": "2026-10-01T13:52:24Z"
+    },
+    {
+     "sha": "a723d45",
+     "msg": "remove automação",
+     "author": "LH434534",
+     "date": "2026-10-01T13:52:07Z"
+    },
+    {
+     "sha": "eb21c53",
+     "msg": "remove automação",
+     "author": "LH434534",
+     "date": "2026-10-01T13:52:00Z"
+    },
+    {
+     "sha": "c24912b",
+     "msg": "remove automação",
+     "author": "LH434534",
+     "date": "2026-10-01T13:51:49Z"
+    },
+    {
+     "sha": "9431926",
+     "msg": "remove automação",
+     "author": "LH434534",
+     "date": "2026-10-01T13:51:42Z"
+    },
+    {
+     "sha": "cde96c3",
+     "msg": "remove automação",
+     "author": "LH434534",
+     "date": "2026-10-01T13:51:40Z"
+    },
+    {
+     "sha": "1aca6d0",
+     "msg": "remove automação",
+     "author": "LH434534",
+     "date": "2026-10-01T13:51:33Z"
+    },
+    {
+     "sha": "6af6c39",
+     "msg": "remove automação",
+     "author": "LH434534",
+     "date": "2026-10-01T13:51:32Z"
+    },
+    {
+     "sha": "7eeb716",
+     "msg": "profile result",
+     "author": "github-actions[bot]",
+     "date": "2026-10-01T13:50:53Z"
+    },
+    {
+     "sha": "6dd2129",
+     "msg": "profile v3",
+     "author": "LH434534",
+     "date": "2026-10-01T13:50:19Z"
+    },
+    {
+     "sha": "fdf520e",
+     "msg": "profile v2",
+     "author": "LH434534",
+     "date": "2026-10-01T13:47:24Z"
+    },
+    {
+     "sha": "6945ce6",
+     "msg": "memória [skip ci]",
+     "author": "bsky-ai",
+     "date": "2026-10-01T13:46:02Z"
+    },
+    {
+     "sha": "2c4d36b",
+     "msg": "profile workflow",
+     "author": "LH434534",
+     "date": "2026-10-01T13:44:43Z"
+    },
+    {
+     "sha": "38bec77",
+     "msg": "memória [skip ci]",
+     "author": "bsky-ai",
+     "date": "2026-10-01T13:43:51Z"
+    },
+    {
+     "sha": "06c4bd2",
+     "msg": "feed check",
+     "author": "github-actions[bot]",
+     "date": "2026-10-01T13:40:12Z"
+    },
+    {
+     "sha": "f4b9c8d",
+     "msg": "check v2",
+     "author": "LH434534",
+     "date": "2026-10-01T13:39:34Z"
+    },
+    {
+     "sha": "8870bdf",
+     "msg": "check feed",
+     "author": "LH434534",
+     "date": "2026-10-01T13:36:59Z"
+    },
+    {
+     "sha": "60b30e8",
+     "msg": "memória [skip ci]",
+     "author": "bsky-ai",
+     "date": "2026-10-01T13:35:12Z"
+    },
+    {
+     "sha": "1024032",
+     "msg": "workflow robusto: smoke + commit com rebase",
+     "author": "LH434534",
+     "date": "2026-10-01T13:33:05Z"
+    },
+    {
+     "sha": "f9abb66",
+     "msg": "anti-spam: janela fixa de 5 horas e 4 disparos por dia",
+     "author": "LH434534",
+     "date": "2026-10-01T13:30:41Z"
+    },
+    {
+     "sha": "f3daef5",
+     "msg": "timing: posta só em hora que viraliza, com guarda anti-spam",
+     "author": "LH434534",
+     "date": "2026-10-01T13:29:41Z"
+    },
+    {
+     "sha": "acecc65",
+     "msg": "remove probe",
+     "author": "LH434534",
+     "date": "2026-10-01T13:26:43Z"
+    },
+    {
+     "sha": "c4093b8",
+     "msg": "IA local: ollama dentro do runner",
+     "author": "LH434534",
+     "date": "2026-10-01T13:25:01Z"
+    },
+    {
+     "sha": "2d59e0e",
+     "msg": "probe6",
+     "author": "github-actions[bot]",
+     "date": "2026-10-01T13:23:46Z"
+    },
+    {
+     "sha": "73ff9e5",
+     "msg": "probe v8",
+     "author": "LH434534",
+     "date": "2026-10-01T13:23:26Z"
+    },
+    {
+     "sha": "0deee0e",
+     "msg": "probe5",
+     "author": "github-actions[bot]",
+     "date": "2026-10-01T13:22:50Z"
+    },
+    {
+     "sha": "41f3e81",
+     "msg": "probe v7",
+     "author": "LH434534",
+     "date": "2026-10-01T13:22:33Z"
+    },
+    {
+     "sha": "8ce0ee9",
+     "msg": "memória [skip ci]",
+     "author": "bsky-ai",
+     "date": "2026-10-01T13:22:25Z"
+    }
+   ],
+   "commit_count": 59,
+   "contributors": [
+    {
+     "login": "LH434534",
+     "n": 40,
+     "avatar": "https://avatars.githubusercontent.com/u/259981839?v=4"
+    },
+    {
+     "login": "bot",
+     "n": 11,
+     "avatar": "https://avatars.githubusercontent.com/u/58210622?v=4"
+    },
+    {
+     "login": "github-actions[bot]",
+     "n": 8,
+     "avatar": "https://avatars.githubusercontent.com/in/15368?v=4"
+    }
+   ],
+   "readme": ""
+  },
+  {
+   "name": "AI-LMARENA-",
+   "full_name": "LH434534/AI-LMARENA-",
+   "desc": "mejor versión modificada de LMARENA  ",
+   "html_url": "https://github.com/LH434534/AI-LMARENA-",
+   "homepage": "",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "size_kb": 1,
+   "open_issues": 0,
+   "lang": null,
+   "langs": {},
+   "topics": [],
+   "created": "2026-02-23T13:04:01Z",
+   "updated": "2026-02-23T13:04:04Z",
+   "fork": false,
+   "archived": false,
+   "default_branch": "main",
+   "commits": [
+    {
+     "sha": "5dcb4df",
+     "msg": "Initial commit",
+     "author": "LH434534",
+     "date": "2026-02-23T13:04:04Z"
+    }
+   ],
+   "commit_count": 1,
+   "contributors": [
+    {
+     "login": "LH434534",
+     "n": 1,
+     "avatar": "https://avatars.githubusercontent.com/u/259981839?v=4"
+    }
+   ],
+   "readme": ""
+  }
+ ],
+ "events": [
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/api-probe",
+   "date": "2026-10-07T17:13:18Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/lh434534.github.io",
+   "date": "2026-10-07T17:15:56Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/lh434534.github.io",
+   "date": "2026-10-07T17:15:54Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/lh434534.github.io",
+   "date": "2026-10-07T17:07:07Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/api-probe",
+   "date": "2026-10-07T17:07:10Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T01:53:26Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T13:39:04Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T13:38:20Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T13:37:05Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T13:35:02Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T01:04:54Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T13:35:02Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T13:34:09Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/mobile-ai-extreme",
+   "date": "2026-10-07T00:31:21Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/mobile-ai-extreme",
+   "date": "2026-10-07T00:30:17Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T02:06:06Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-06T23:12:06Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-06T23:06:33Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/mobile-ai-extreme",
+   "date": "2026-10-07T00:30:04Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/mobile-ai-extreme",
+   "date": "2026-10-07T00:29:17Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "CreateEvent",
+   "label": "Create",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-06T22:10:57Z",
+   "extra": "criou branch",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-06T23:34:01Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-06T23:15:52Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/lumen-apk",
+   "date": "2026-10-06T21:16:17Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/lumen-apk",
+   "date": "2026-10-06T21:15:13Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/lumen-apk",
+   "date": "2026-10-06T21:15:10Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/pocket-apk",
+   "date": "2026-10-06T20:58:05Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T13:40:45Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-06T22:43:55Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T13:36:12Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-06T22:35:03Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "CreateEvent",
+   "label": "Create",
+   "repo": "LH434534/sobre",
+   "date": "2026-10-06T20:42:19Z",
+   "extra": "criou branch",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T13:32:57Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/pocket-apk",
+   "date": "2026-10-06T21:01:56Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T01:38:34Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T00:56:44Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/mobile-ai-extreme",
+   "date": "2026-10-07T00:29:07Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T00:49:40Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T00:33:56Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T00:31:45Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/mobile-ai-extreme",
+   "date": "2026-10-07T00:29:35Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T01:15:06Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/mobile-ai-extreme",
+   "date": "2026-10-07T00:33:32Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/mobile-ai-extreme",
+   "date": "2026-10-07T00:29:08Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-06T23:34:58Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T00:09:48Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/campro",
+   "date": "2026-10-06T22:43:13Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/campro",
+   "date": "2026-10-06T22:42:12Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/campro",
+   "date": "2026-10-06T22:42:07Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/campro",
+   "date": "2026-10-06T22:42:05Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-06T23:25:58Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T01:44:21Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-06T22:25:27Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-06T22:14:03Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/mobile-ai-extreme",
+   "date": "2026-10-07T00:30:10Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/mobile-ai-extreme",
+   "date": "2026-10-07T00:29:55Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/mobile-ai-extreme",
+   "date": "2026-10-07T00:29:16Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-07T13:40:15Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/lumen-apk",
+   "date": "2026-10-06T21:15:17Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  },
+  {
+   "type": "PushEvent",
+   "label": "Push",
+   "repo": "LH434534/bluesky-agent",
+   "date": "2026-10-06T23:32:37Z",
+   "extra": "0 commit(s)",
+   "msgs": []
+  }
+ ],
+ "languages": [
+  [
+   "Python",
+   754415
+  ],
+  [
+   "Java",
+   248974
+  ],
+  [
+   "HTML",
+   213081
+  ],
+  [
+   "JavaScript",
+   114012
+  ],
+  [
+   "Shell",
+   9833
+  ],
+  [
+   "CSS",
+   1437
+  ],
+  [
+   "Dockerfile",
+   796
+  ]
+ ],
+ "topics": [],
+ "starred": [
+  {
+   "name": "SimonSchubert/Kai",
+   "url": "https://github.com/SimonSchubert/Kai",
+   "desc": "OpenClaw alternative in your pocket",
+   "stars": 1275,
+   "lang": "Kotlin"
+  },
+  {
+   "name": "ShadowHackrs/Jailbreaks-GPT-Gemini-deepseek-",
+   "url": "https://github.com/ShadowHackrs/Jailbreaks-GPT-Gemini-deepseek-",
+   "desc": "Jailbreaks GPT, Sora, Claude, Gemini ,deepseek this prompt unlocks rage mode",
+   "stars": 1468,
+   "lang": ""
+  }
+ ],
+ "followers": [],
+ "following": [
+  {
+   "login": "elder-plinius",
+   "avatar": "https://avatars.githubusercontent.com/u/133052465?v=4",
+   "url": "https://github.com/elder-plinius"
+  },
+  {
+   "login": "BlackTechX011",
+   "avatar": "https://avatars.githubusercontent.com/u/155609122?v=4",
+   "url": "https://github.com/BlackTechX011"
+  }
+ ],
+ "heatmap": {
+  "2026-10-07": 42,
+  "2026-10-06": 58
+ },
+ "generated": "2026-10-08 21:16:14"
+}

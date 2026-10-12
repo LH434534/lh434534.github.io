@@ -25,7 +25,7 @@ jobs:
             echo "=== primeiras linhas do index servido ==="
             head -6 /tmp/serv_index.html
             echo "=== well-known servido ==="
-            cat /tmp/serv_.well-known-atproto-did 2>/dev/null || cat "/tmp/serv_.well-known/atproto-did" 2>/dev/null
+            cat /tmp/serv_atproto-did
           } > confirm.txt 2>&1
       - name: publica
         run: |
